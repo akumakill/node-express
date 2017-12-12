@@ -1,3 +1,5 @@
+# node-express
+
 //create package.json
 npm init
 
@@ -23,4 +25,5 @@ npm install --save mongoose
 //sign up for mongoosedb account @ https://mlab.com
 
 //to start server type
-npm start# node-express
+npm start
+
