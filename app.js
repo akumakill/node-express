@@ -20,6 +20,9 @@ app.use('/', mainRouter);
 var itemRouter = require('./src/routes/itemRoutes');
 app.use('/items', itemRouter);
 
+var bootRouter = require('./src/routes/bootRoutes');
+app.use('/boot', bootRouter);
+
 //set server listening port
 app.listen(port, function() {
     console.log('Server is running on port: ' + port);
