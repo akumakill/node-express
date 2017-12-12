@@ -1,0 +1,21 @@
+{
+    "name": "nodeexp",
+    "version": "1.0.0",
+    "description": "Test Node Express",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "nodeexp"
+    },
+    "author": "Jason Chan",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^2.5.7",
+        "express": "^4.16.2",
+        "mongoose": "^4.13.6"
+    }
+}
